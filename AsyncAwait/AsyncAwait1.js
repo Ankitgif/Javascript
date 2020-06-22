@@ -12,6 +12,9 @@ const calculate = (a, b, c) => {
 
 calculate(1, 2, 3).then((addition) => {
     console.log(addition);
+    return calculate(addition, 4, 5)
+}).then((result) => {
+    console.log(result);
 }).catch((e) => {
     console.log(e);
 })
