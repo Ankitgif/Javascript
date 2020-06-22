@@ -7,10 +7,8 @@ let promise = new Promise(function(resolve,reject){
     reject('error');
 });
 
-promise.then(function(msg){
+promise.then((msg) => {
     console.log(msg);
-},
-function(err){
+}).catch((err) => {
     console.log(err);
-}
-);
+});
