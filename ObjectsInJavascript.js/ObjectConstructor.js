@@ -10,10 +10,10 @@ function Person(first, last, age, eye) {
   }
   
   // Create a Person object
-  let myFriend = new Person("John", "Doe", 24, "blue");
+  let myFriend = new Person("John", "Doe", "24", "blue");
   
   // Display age
-  console.log(Person.age); 
+  console.log(myFriend.age); 
 
 // function User(name) {
 //     this.name = name;
@@ -22,5 +22,5 @@ function Person(first, last, age, eye) {
   
 //   let user = new User("Jack");
   
-//   console.log(user.name); // Jack
-//   console.log(user.isAdmin); // false
+//   console.log(user.name); 
+//   console.log(user.isAdmin); 
